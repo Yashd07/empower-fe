@@ -120,7 +120,7 @@ const Milaninfobanner = () => {
             )}
           </div>
 
-          <div className="mib_sidewise container">
+          {/* <div className="mib_sidewise container">
             <div className="mib_collab_bottom_left">
               <img src={MilanConnect} alt="" />
             </div>
@@ -155,7 +155,7 @@ const Milaninfobanner = () => {
                 </p>
               )}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -188,7 +188,7 @@ const Milaninfobanner = () => {
             )}
           </div>
 
-          <div className="mib_sidewise container">
+          {/* <div className="mib_sidewise container">
             <div className="mib_collab_bottom_left">
               <img src={MilanBuild} alt="" />
             </div>
@@ -224,7 +224,7 @@ const Milaninfobanner = () => {
                 .
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -105,41 +105,7 @@ const Landing = () => {
             />
             Antarang foundation
           </div>
-          {/* <div className="landing_marque_pill">
-            <img
-              src="https://www.sruti.org.in/wp-content/uploads/2021/05/education-image.jpg"
-              alt=""
-            />
-            Sruti foundation
-          </div>
-          <div className="landing_marque_pill">
-            <img
-              src="https://www.sruti.org.in/wp-content/uploads/2021/05/education-image.jpg"
-              alt=""
-            />
-            Sruti foundation
-          </div>
-          <div className="landing_marque_pill">
-            <img
-              src="https://www.sruti.org.in/wp-content/uploads/2021/05/education-image.jpg"
-              alt=""
-            />
-            Sruti foundation
-          </div>
-          <div className="landing_marque_pill">
-            <img
-              src="https://www.sruti.org.in/wp-content/uploads/2021/05/education-image.jpg"
-              alt=""
-            />
-            Sruti foundation
-          </div>
-          <div className="landing_marque_pill">
-            <img
-              src="https://www.sruti.org.in/wp-content/uploads/2021/05/education-image.jpg"
-              alt=""
-            />
-            Sruti foundation
-          </div> */}
+          
         </Marquee>
 
         {Cookies.get("isLoggedIn") ? (

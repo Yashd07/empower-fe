@@ -34,10 +34,6 @@ const Home = () => {
     <>
       <Helmet>
         <title>EmpowerLink</title>
-        <meta
-          name="description"
-          content="Welcome to the homepage of Milan, a hub for Users to collaborate with NGOs, Charities and more."
-        />
         <link rel="canonical" href="/" />
       </Helmet>
 

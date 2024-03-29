@@ -117,7 +117,7 @@ const Profile = () => {
                 )}
 
                 {Cookies.get("isLoggedIn") &&
-                Cookies.get("username") === params.username ? (
+                  Cookies.get("username") === params.username ? (
                   <Button
                     variant="outline"
                     className="profile_header_cta"
@@ -182,7 +182,7 @@ const Profile = () => {
             )}
 
             {Cookies.get("isLoggedIn") &&
-            Cookies.get("username") === params.username ? (
+              Cookies.get("username") === params.username ? (
               <Button
                 variant="outline"
                 className="profile_header_cta"
@@ -230,23 +230,20 @@ const Profile = () => {
 
           */}
 
+          {info?.address && (
+            <div className="profile_about">
+              <h1 className="profile_about_title">Address</h1>
+              <p>
+                {info?.address}
+              </p>
+            </div>
+          )}
+
           {info?.description && (
             <div className="profile_about">
-              <h1 className="profile_about_title">About Us</h1>
+              <h1 className="profile_about_title">About</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-                dolore nesciunt beatae libero temporibus expedita similique,
-                laborum blanditiis? Animi aliquam numquam necessitatibus natus
-                libero reprehenderit iusto voluptatem maiores officiis quibusdam
-                neque suscipit, delectus laborum porro architecto aut sapiente
-                quasi repudiandae, ab mollitia. Voluptatem inventore numquam
-                quisquam quidem rerum neque sapiente, praesentium sunt
-                reiciendis pariatur voluptas vel vitae nulla magnam, ex
-                aspernatur necessitatibus. Totam dolores sequi tempore magnam
-                numquam sapiente repellat modi? Et consectetur similique sit
-                laudantium corrupti. Autem, maxime aliquid cumque, culpa earum
-                animi dolorem, voluptates facere sint necessitatibus ea a error
-                vero reprehenderit! A blanditiis cumque itaque fugit dolorem.
+                {info?.description}
               </p>
             </div>
           )}

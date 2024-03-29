@@ -225,11 +225,11 @@ const Navbar = () => {
               Your Profile
               <span>⇧⌘P</span>
             </Link>
-            {usertype === "club" ? (
+            {/* {usertype === "club" ? (
               <Link to={"/event/create"}>
                 Your Events <span>⌘E</span>
               </Link>
-            ) : null}
+            ) : null} */}
             <Link>
               Settings <span>⌘S</span>
             </Link>
